@@ -1,4 +1,4 @@
-import pandas as pd
+import pd as pd
 import seaborn
 import csv
 import matplotlib.pyplot as plt
@@ -11,6 +11,7 @@ data_head = 'data/_HEAD.csv'
 head_dict = {}
 head = []
 pandas_file = 'pandas.csv'
+
 with open(data_head) as file:
     for items in file:
         data = items.split(',')
